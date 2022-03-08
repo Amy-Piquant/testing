@@ -7,6 +7,20 @@
     <title>Document</title>
 </head>
 <body>
+
+    <button class="btn btn-link" onclick="copyLink()">
+        <i class="fab fa-facebook-f"></i>
+        <span>Facebook</span>
+      </button>
     
 </body>
+
+
+<script>
+    function copyLink() {
+
+      navigator.clipboard.writeText(window.location.href);
+    }
+    
+    </script>
 </html>
